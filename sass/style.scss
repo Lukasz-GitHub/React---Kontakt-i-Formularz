@@ -1,0 +1,59 @@
+body {
+    background-color: darkgray;
+    font-family: 'Arimo', sans-serif;
+}
+
+.app {
+    background-image: url(https://vignette.wikia.nocookie.net/survivor/images/c/ce/Silver-background.jpg/revision/latest/scale-to-width-down/640?cb=20130204080424);
+    background-size: cover;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    h1 {
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    .contactForm {
+        text-align: center;
+        input {
+            margin-right: 20px;
+            border-radius: 5px;
+            text-align: center;
+            padding: 3px;
+            background-color: #000;
+            color: #fff;
+            &::placeholder {
+                color: #fff;
+            }
+        }
+        button {
+            background-color: #243385;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .contactsList {
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        .contactItem {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .contactImage {
+            height: 150px;
+            transition: 0.3s;
+            &:hover {
+                transform: scale(0.90);
+                cursor: pointer;
+            }
+        }
+    }
+}

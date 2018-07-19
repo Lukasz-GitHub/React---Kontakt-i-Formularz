@@ -1,0 +1,80 @@
+body {
+  background-color: darkgray;
+  font-family: 'Arimo', sans-serif;
+}
+
+.app {
+  background-image: url(https://vignette.wikia.nocookie.net/survivor/images/c/ce/Silver-background.jpg/revision/latest/scale-to-width-down/640?cb=20130204080424);
+  background-size: cover;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.app h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.app .contactForm {
+  text-align: center;
+}
+
+.app .contactForm input {
+  margin-right: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px;
+  background-color: #000;
+  color: #fff;
+}
+
+.app .contactForm input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.app .contactForm input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.app .contactForm input::placeholder {
+  color: #fff;
+}
+
+.app .contactForm button {
+  background-color: #243385;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.app .contactForm button:hover {
+  cursor: pointer;
+}
+
+.app .contactsList {
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.app .contactsList .contactItem {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.app .contactsList .contactImage {
+  height: 150px;
+  transition: 0.3s;
+}
+
+.app .contactsList .contactImage:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
